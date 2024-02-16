@@ -1,0 +1,76 @@
+Locator:
+to identify the web element
+
+8 locators:
+===========
+
+id, name, classname, tagname,
+linktext, partiallinktext, xpath, cssSelector
+
+
+DOM --> Document object model
+
+Xpath:
+
+One of the locator. two types of xpath
+
+1) Relative xpath
+
+    i) Single attribute
+
+    //tagname[@attribute='value']
+
+    //input[@id='email']
+
+    //input[@name='email']
+
+    //input[@class='inputtext _55r1 _6luy']
+
+    //input[@data-testid='royal_email']
+
+    //input[@placeholder='Email address or phone number']
+
+    //input[@aria-label='Email address or phone number']
+
+    ii) Multiple attribute
+
+    //tagname[@attribute='value'][@attribute='value']
+
+    //input[@class='_8esa'][@value='2']
+
+    iii) text() function
+
+    //tagname[text()='value']
+
+    //*[text()=' for a celebrity, brand or business.']
+
+    iv) contains() function
+
+    contains() text():
+
+    //tagname[contains(text(),'partialvalue')]
+
+    //a[contains(text(),'ten')]
+
+    //a[contains(text(),'got')]
+
+    //a[contains(text(),'pass')]
+
+    //a[contains(text(),'word')]
+
+    //a[contains(text(),'Fo')]
+
+    contains() attribute:
+
+    v) starts-with() function
+
+    starts-with() text():
+
+    //tagname[starts-with(text(),'starting value')]
+
+    //a[starts-with(text(),'Fo')]
+
+
+    starts-with() attribute:
+
+2) Absolute xpath
